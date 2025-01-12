@@ -1,12 +1,15 @@
 .container {
     display: flex;
-    flex-wrap: wrap; /* Allows wrapping to multiple rows */
-    width: auto; /* Set a width for the container */
-    border: 1px solid black; 
+    flex-wrap: wrap; 
+    height: 900px; 
+    width: 900px; 
+    border: 1px solid gray;
+    box-sizing: border-box; 
 }
 
 .content {
-    width: 150px;
-    height: 150px;
-    border: 1px solid black;
+    flex: 0 0 calc(100% / 16); 
+    height: calc(100% / 16); 
+    border: 1px solid gray;
+    box-sizing: border-box; 
 }
