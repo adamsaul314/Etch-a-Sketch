@@ -12,4 +12,9 @@
     height: calc(100% / 16); 
     border: 1px solid gray;
     box-sizing: border-box; 
+
+}
+
+.content:hover{
+    background-color: black;
 }
