@@ -11,5 +11,22 @@ content.classList.add(`content${divNum}`, 'content')
 container.appendChild(content)
 divNum ++
 }
+
+document.getElementById('btn').addEventListener('click', changeSize)
+
+function changeSize(){
+
+    
+
+    let gridSize = prompt('Enter Grid Size')
+
+    for (let i = 0; i < gridSize; i++){
+    
+        const content = document.createElement('div')
+        content.classList.add(`content${divNum}`, 'content')
+        container.appendChild(content)
+        divNum ++
+    }
+}
     
     
