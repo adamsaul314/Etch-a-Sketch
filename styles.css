@@ -1,4 +1,12 @@
-#container{
-    border: 10px;
-    border-color: blue;
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to multiple rows */
+    width: auto; /* Set a width for the container */
+    border: 1px solid black; 
+}
+
+.content {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
 }
