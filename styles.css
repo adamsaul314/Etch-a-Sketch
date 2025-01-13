@@ -8,8 +8,6 @@
 }
 
 .content {
-    flex: 0 0 calc(100% / 16); 
-    height: calc(100% / 16); 
     border: 1px solid gray;
     box-sizing: border-box; 
 
